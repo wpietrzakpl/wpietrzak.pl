@@ -3,6 +3,6 @@ title: Glpi
 layout: collection
 permalink: /glpi/
 collection: glpi
-entries_layout: list
+entries_layout: grid
 classes: wide
 ---

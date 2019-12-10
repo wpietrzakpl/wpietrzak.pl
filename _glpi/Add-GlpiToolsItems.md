@@ -33,26 +33,22 @@ Example will add item into Computers
 ### EXAMPLE 2
 ```
 $example =  @{name = "test"} | ConvertTo-Json
+PS C:\> Add-GlpiToolsItems -AddTo Computer -HashtableToAdd $example
 ```
-
-PS C:\\\> Add-GlpiToolsItems -AddTo Computer -HashtableToAdd $example
 Example will add item into Computers
 
 ### EXAMPLE 3
 ```
 $example = @{ name = "test" } | ConvertTo-Json
+PS C:\> $upload = '{ "input" : ' + $example + '}'
+PS C:\> Add-GlpiToolsItems -AddTo Computer -JsonPayload $upload
 ```
-
-PS C:\\\> $upload = '{ "input" : ' + $example + '}'
-PS C:\\\> Add-GlpiToolsItems -AddTo Computer -JsonPayload $upload
 
 ### EXAMPLE 4
 ```
 $example = "@
-```
-
 {
-"input" : \[
+"input" : [
 {
 "name" : "test1",
 "comment" : "updated from script"
@@ -61,10 +57,11 @@ $example = "@
 "name" : "test2",
 "comment" : "updated from script"
 }
-\]
+]
 }
 @"
-PS C:\\\> Add-GlpiToolsItems -AddTo Computer -JsonPayload $example
+PS C:\> Add-GlpiToolsItems -AddTo Computer -JsonPayload $example
+```
 Example will Add items into Computers
 
 ## PARAMETERS
