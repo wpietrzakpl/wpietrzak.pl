@@ -122,7 +122,6 @@ Accept wildcard characters: False
 ```
 
 ### -ComputerTypeName
-{{ Fill ComputerTypeName Description }}
 
 ```yaml
 Type: String

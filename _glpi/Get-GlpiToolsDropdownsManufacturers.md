@@ -122,7 +122,6 @@ Accept wildcard characters: False
 ```
 
 ### -ManufacturerName
-{{ Fill ManufacturerName Description }}
 
 ```yaml
 Type: String

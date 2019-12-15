@@ -102,7 +102,6 @@ Accept wildcard characters: False
 ```
 
 ### -HashtableToRemove
-{{ Fill HashtableToRemove Description }}
 
 ```yaml
 Type: Hashtable

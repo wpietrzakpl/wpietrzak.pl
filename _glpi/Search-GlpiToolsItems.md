@@ -114,7 +114,6 @@ Accept wildcard characters: False
 ```
 
 ### -SearchInTrash
-{{ Fill SearchInTrash Description }}
 
 ```yaml
 Type: String
