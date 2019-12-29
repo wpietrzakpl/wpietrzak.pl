@@ -10,7 +10,7 @@ main:
   #   url: /sitemap/
   - title: "Categories"
     url: /categories/
-  - title: "Collections"
-    url: /collections/
+  #- title: "Collections"
+  #  url: /collections/
   - title: "Projects"
     url: /projects/
