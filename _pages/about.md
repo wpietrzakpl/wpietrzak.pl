@@ -10,7 +10,7 @@ I'am a big fan of Windows PowerShell/ PowerShell, and mainly about that I want t
 
 My IT journey started in 2013. Right after when I finished my high school, I landed in small company (my Boss and I) which serve IT services (outsourcing).
 
-I started work for bigger company where I provided IT support as Junior IT Admin
+Later, I started work for company where I provided IT support as Junior IT Admin
 I supported almost everything, from access control devices, through computers, servers to power supplies (UPS)
 
 It comes a time where I consider to change the place where I work, I learnt a lot, and I felt it's a right time!
