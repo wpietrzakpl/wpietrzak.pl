@@ -4,7 +4,6 @@ categories:
     - Glpi
 tags:
     - GlpiTools
-    - Glpi
 ---
 # How To Start
 To start with module GlpiTools which wrap Glpi API into PowerShell functions you have to complete few steps below. 
