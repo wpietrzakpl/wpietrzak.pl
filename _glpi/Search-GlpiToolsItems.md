@@ -8,8 +8,8 @@ Function is using GLPI Search Engine to get informations.
 ## SYNTAX
 
 ```
-Search-GlpiToolsItems [-SearchFor] <String> [-SearchType] <String> [[-SearchField] <String>]
- [-SearchValue] <String> [[-SearchInTrash] <String>] [<CommonParameters>]
+Search-GlpiToolsItems [-SearchFor] <String> [-SearchType] <String[]> [[-SearchField] <String[]>]
+ [-SearchValue] <String[]> [[-SearchLink] <String[]>] [[-SearchInTrash] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -68,7 +68,7 @@ You can use this function with -SearchType parameter.
 Using TAB button you can choose desired option.
 
 ```yaml
-Type: String
+Type: String[]
 Parameter Sets: (All)
 Aliases:
 
@@ -85,7 +85,7 @@ This is an optional parameter, default value is 1 which is called Name in GLPI.
 This parameter can take pipeline input, even from Get-GlpiToolsListSearchOptions cmdlet.
 
 ```yaml
-Type: String
+Type: String[]
 Parameter Sets: (All)
 Aliases:
 
@@ -102,7 +102,7 @@ This parameter can take pipeline input.
 Provide value to the function, which is used to search for.
 
 ```yaml
-Type: String
+Type: String[]
 Parameter Sets: (All)
 Aliases:
 
@@ -113,7 +113,23 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
+### -SearchLink
+{{ Fill SearchLink Description }}
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 5
+Default value: AND
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
 ### -SearchInTrash
+{{ Fill SearchInTrash Description }}
 
 ```yaml
 Type: String
@@ -121,7 +137,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: False
-Position: 5
+Position: 6
 Default value: No
 Accept pipeline input: False
 Accept wildcard characters: False
