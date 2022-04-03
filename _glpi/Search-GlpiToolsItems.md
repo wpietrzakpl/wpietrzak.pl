@@ -44,6 +44,16 @@ Example will show every asset which contains value "DC" in the Name from Asset-\
 SearchFiled can be retrieved from Get-GlpiToolsListSearchOptions cmdlet, you can provide it throught pipeline.
 SearchInTrash will allow you to search for assets from trash.
 
+### EXAMPLE 4
+```
+Search-GlpiToolsItems -SearchFor Computer -SearchType contains, contains -SearchField 1, 40 -SearchValue c, virtual -SearchLink AND
+```
+
+Example will show every asset which contains value "c" and model "virtual" in the Name from Asset-\>Computers.
+This command allows you to put more filters on a search
+SearchFiled can be retrieved from Get-GlpiToolsListSearchOptions cmdlet, you can provide it throught pipeline.
+SearchInTrash will allow you to search for assets from trash.
+
 ## PARAMETERS
 
 ### -SearchFor
